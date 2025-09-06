@@ -90,7 +90,15 @@ body {
 }
 
 .letter p {
-  font-size: 16px;
+  font-family: Arial, sans-serif; /* Fuente */
+  font-weight: bold;
+  line-height: 1.6; /* Interlineado (1.0 es normal, >1 aumenta el espacio) */
+  letter-spacing: 1px; /* Espacio entre letras */
+  word-spacing: 3px; /* Espacio entre palabras */
+  text-indent: 30px; /* Sangría en la primera línea */
+  margin: 15px 0;
+  text-align: justify;
+  font-size: 14px;
   line-height: 1.5;
   color: #333;
 }
@@ -105,17 +113,17 @@ body {
 .spotify-link a {
   display: inline-block;
   padding: 10px 20px;
-  background: #1db954;
+  background: rgb(0, 0, 0);
   color: white;
   text-decoration: none;
   border-radius: 25px;
   font-weight: bold;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease;
 }
 
 .spotify-link a:hover {
-  background: #17a94d;
+  background: rgb(40, 40, 40);
 }
 
 .envelope.open .spotify-link {
