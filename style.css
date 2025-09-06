@@ -102,6 +102,10 @@ body {
   line-height: 1.5;
   color: #333;
 }
+.letter span {
+  font-size: 16px;
+  font-weight: 600;
+}
 
 .spotify-link {
   text-align: center;
@@ -124,6 +128,11 @@ body {
 
 .spotify-link a:hover {
   background: #5c5454;
+}
+
+.spotify-link iframe {
+  width: 80%;
+  height: 200px;
 }
 
 .envelope.open .spotify-link {
