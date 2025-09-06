@@ -83,6 +83,7 @@ body {
 }
 
 .letter h2 {
+  text-transform: uppercase;
   color: #e91e63;
   margin-top: 0;
   text-align: center;
